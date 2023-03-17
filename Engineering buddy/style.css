@@ -1,0 +1,151 @@
+body{
+  background-color: #fff;
+font-style: oblique;
+}
+
+.main{
+  background-color:#66c2ff;
+
+}
+.main .brand{
+  font-style: italic;
+}
+.list a{
+background-color: #fff;
+
+}
+.list a:hover{
+  background-color: #3385ff;
+
+}
+
+/* .list h5{
+  background-color: #3385ff;
+
+  color:#fff;
+
+  font-size: 16px;
+   padding: 20px;
+} */
+.list{
+  text-align: center;
+    background-color: #d9d9d9;
+  width:60%;
+  position:relative;
+  left:20%;
+  top:10px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+
+
+.dropbtn {
+  background-color: #3385ff;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  min-width : 400px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #66c2ff;
+}
+
+
+marquee{
+text-align: center;
+  font-size: 22px;
+  position: relative;
+  left: 20%;
+  top:20px;
+font-size: 15px;
+font-style: normal;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .youtube{
+  font-weight: bolder;
+
+  }
+  .contact{
+  font-weight: bolder;
+
+  }
+.download{
+font-weight: bolder;
+
+}
+.list{
+
+  width:90%;
+    left:5%;
+top:20px;
+}
+
+.dropbtn {
+padding: 22px;
+  font-size: 22px;
+  min-width : 520px;
+
+}
+.dropdown-content {
+
+  min-width: 520px;
+
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+}
+.foot{
+
+  background-color: yellow;
+}
+.title{
+  font-style: oblique;
+}
+.disclamer{
+  color: red;
+}
